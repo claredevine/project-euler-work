@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript">
+        function multiplesOfThreeAndFive(input) {
+        var input = prompt("Enter a number to find all the multiples of three and five");
+
+        for(var i = 1; i < input; i++) {
+            if(i % 3 == 0) {
+                console.log(i);
+            }
+        }
+
+        for(var j = 1; j < input; j++) {
+            if(j % 5 == 0) {
+                console.log(j);
+            }
+        }
+
+        console.log(i + j);
+    }
+
+    multiplesOfThreeAndFive(1000);
+    </script>
+</head>
+</html>
