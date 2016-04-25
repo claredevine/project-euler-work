@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript">
+
+    //Loops through the Fibonnacci sequence
+    
+        function evenFibonacci() {
+        var fib = [];
+
+        fib[0] = 0;
+        fib[1] = 1;
+        for(var i = 2; i <= 4000000; i++) {
+            fib[i] = fib[i - 2] + fib[i - 1];
+
+            // if(fib[i] % 2 == 0) {
+            //     console.log(fib[i]);
+            // }
+        }
+    }
+    evenFibonacci();
+    console.log("Hello");
+    </script>
+</head>
+</html>
